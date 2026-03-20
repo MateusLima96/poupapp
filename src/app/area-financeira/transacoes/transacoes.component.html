@@ -1,9 +1,4 @@
-<section class="transacoes-card">
-  <div class="titulo-wrapper">
-    <h2 class="texto-lg">Movimentação financeira</h2>
-  </div>
-
-  <div class="corpo-card">
+<app-card>
     <div class="transacoes-e-botao">
       <ul>
         @for (transacao of transacoes(); track transacao.id) {
@@ -22,5 +17,4 @@
         Adicionar Transação
       </app-botao>
     </div>
-  </div>
-</section>
+</app-card>
